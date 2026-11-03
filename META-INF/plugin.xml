@@ -1,0 +1,12 @@
+<idea-plugin>
+  <id>local.capo-light-theme</id>
+  <name>Capo-Light Theme</name>
+  <version>1.0.0</version>
+  <vendor>Charles Jones</vendor>
+  <description>Capo-Light editor colors with the VS Code light workbench around them.</description>
+  <idea-version since-build="233" />
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="capo-light" path="/Capo-Light.theme.json" />
+  </extensions>
+</idea-plugin>
